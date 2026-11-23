@@ -2,7 +2,7 @@
 <html lang="es" data-theme="dark" style="color-scheme: dark;"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Santa invisible 🎄</title>
+<title>Secret Santa 🎄</title>
 <style>
 :root{--bg:#fbf6ee;--fg:#2a1f1a;--mut:#7a6a60;--card:#ffffff;--line:#e8dccb;--acc:#c0392b;--acc2:#1e7a4c;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17120f;--fg:#f5ebdd;--mut:#b3a396;--card:#241c17;--line:#3a2d25;--acc:#e5584a;--acc2:#4fbf86;color-scheme:dark}}
@@ -77,7 +77,7 @@ function home(){
   };
   btn.onclick=go;input.onkeydown=e=>{if(e.key==='Enter')go();};
   const adm=el('button',{class:'ghost',onclick:login},'Admin');
-  show(el('div',{class:'gift'},'🎄'),el('h1',{},'Santa invisible'),el('p',{class:'sub'},'Escribe tu nombre y gira para saber a quién le regalas.'),card,el('div',{class:'foot'},adm));
+  show(el('div',{class:'gift'},'🎄'),el('h1',{},'Secret Santa'),el('p',{class:'sub'},'Escribe tu nombre y gira para saber a quién le regalas.🤫'),card,el('div',{class:'foot'},adm));
 }
 
 function login(){
